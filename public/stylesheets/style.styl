@@ -1,0 +1,87 @@
+@import 'nib'
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans')
+global-reset()
+
+main-color = #fa5b4d
+background-color = #222
+
+body
+  font-family 'Noto Sans', sans-serif
+  background-color background-color
+  margin 0 0 8px 4px
+  color white
+  width 80%
+
+header
+  background-image url('../images/logo.png')
+  background-position left top
+  background-repeat no-repeat
+  background-attachment fixed
+  height 64px
+  margin 4px 0 8px 4px
+
+.container
+  #ttl-mssgs-container
+    .ttl-mssg
+      width 256px
+      background-color #333
+      margin 0 4px 8px 0
+      overflow hidden
+      border-radius 3px
+      border 0.1em solid orange
+      float left
+      &:before
+        clear both
+        content ''
+        height 0
+        visibility hidden
+        display block
+
+      .ttl-mssg-user
+        margin 0
+        padding 4px 4px 0 4px
+        height 16px
+        width 120px
+        float left
+        font-size 0.6em
+
+      .ttl-mssg-ttl
+        float left
+        text-align right
+        padding 4px 4px 0 4px
+        height 16px
+        width 120px
+        font-size 0.6em
+
+      .ttl-mssg-content
+        margin 0
+        clear both
+        border-top 0.1em solid orange
+        font-size 0.8em
+        padding 4px
+
+#loged
+  font-size 0.6em
+  a
+    color white
+    text-decoration none
+    &:visited
+      color white
+    &:hover
+      text-decoration none
+      border-bottom 1px dotted white
+
+#new-ttl-mssg-form
+  clear both
+  margin 10px 0 0 4px
+  #new-ttl-mssg
+    width 256px
+    border-radius 3px
+    boder 0.1em solid orange
+
+footer
+  margin 32px 4px 10px 4px
+  border-top 1px dotted #ccc
+  padding-top 6px
+  font-size 0.6em
+  font-family 'Noto Sans', sans-serif

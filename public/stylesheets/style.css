@@ -1,0 +1,202 @@
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #222;
+  margin: 0 0 8px 4px;
+  color: #fff;
+}
+header {
+  background-image: url("../images/logo.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 64px;
+  margin: 4px 0 8px 4px;
+}
+.container #ttl-mssgs-container .ttl-mssg {
+  width: 256px;
+  background-color: #333;
+  margin: 0 4px 8px 0;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0.1em solid #ffa500;
+  float: left;
+}
+.container #ttl-mssgs-container .ttl-mssg:before {
+  clear: both;
+  content: '';
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+.container #ttl-mssgs-container .ttl-mssg .ttl-mssg-user {
+  margin: 0;
+  padding: 4px 4px 0 4px;
+  height: 16px;
+  width: 120px;
+  float: left;
+  font-size: 0.6em;
+}
+.container #ttl-mssgs-container .ttl-mssg .ttl-mssg-ttl {
+  float: left;
+  text-align: right;
+  padding: 4px 4px 0 4px;
+  height: 16px;
+  width: 120px;
+  font-size: 0.6em;
+}
+.container #ttl-mssgs-container .ttl-mssg .ttl-mssg-content {
+  margin: 0;
+  clear: both;
+  border-top: 0.1em solid #ffa500;
+  font-size: 0.8em;
+  padding: 4px;
+}
+#loged {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+#loged a {
+  color: #fff;
+  text-decoration: none;
+}
+#loged a:visited {
+  color: #fff;
+}
+#loged a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+#new-ttl-mssg-form {
+  clear: both;
+}
+#new-ttl-mssg {
+  width: 200px;
+  margin-right: 5px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0.1em solid #ffa500;
+}
+footer {
+  margin: 32px 4px 10px 4px;
+  border-top: 1px dotted #ccc;
+  padding-top: 6px;
+  font-size: 0.6em;
+  font-family: 'Noto Sans', sans-serif;
+}
+/*CSS ICONS*/
+.play {
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  border: 0.1em solid #ffa500;
+}
+.play:before {
+  position: absolute;
+  content: '';
+  top: 0.25em;
+  left: 0.75em;
+  width: 0em;
+  height: 0em;
+  border-top: 0.8em solid #ffa500;
+  border-bottom: 0.8em solid transparent;
+  border-left: 0.8em solid #ffa500;
+}
+.play:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+extend layout
+
+block content
+
+	#ttl-mssgs-container
+
+	#new-ttl-mssg-form
+		| Come on! Write something!
+		br
+		input(id='new-ttl-mssg', type='text')
+		br
+
+	#loged
+		| login as 
+		span#email
+			| #{user.emails[0].value}
+		| (
+		a(href='/logout')
+			| logout
+		| )
+		
