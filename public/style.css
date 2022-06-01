@@ -93,21 +93,17 @@ a img {
 body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #222;
-  margin: 20px 20px 50px 20px;
+  margin: 0 0 8px 4px;
   color: #fff;
-}
-body a {
-  color: #fff;
+  width: 80%;
 }
 header {
   background-image: url("../images/logo.png");
   background-position: left top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 64px;
   margin: 4px 0 8px 4px;
-}
-.login-anchor {
-  color: #fff;
 }
 .container #ttl-mssgs-container .ttl-mssg {
   width: 256px;
